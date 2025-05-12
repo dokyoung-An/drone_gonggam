@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.1.8/20986
 // Filename: 25.05. ??? ???? - test.ggsk
-// Generated 2025-05-12T14:34:00
+// Generated 2025-05-12T14:47:25
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_lanhouse', 2, false, { ignoreInState: 0  });
@@ -13856,7 +13856,7 @@ function pano2vrSkin(player,base) {
 				me._vrm0.ggCurrentLogicStateBackgroundColor = newLogicStateBackgroundColor;
 				me._vrm0.style.transition='background-color 0s';
 				if (me._vrm0.ggCurrentLogicStateBackgroundColor == 0) {
-					me._vrm0.style.backgroundColor="rgba(0,48,153,0.627451)";
+					me._vrm0.style.backgroundColor="rgba(0,48,153,1)";
 				}
 				else {
 					me._vrm0.style.backgroundColor="rgba(255,255,255,1)";
@@ -13994,7 +13994,7 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_rectangle ";
 		el.ggType='rectangle';
 		hs ='';
-		hs+='background : #ee5e3d;';
+		hs+='background : #ffffff;';
 		hs+='border : 0px solid #000000;';
 		hs+='border-radius : 5px;';
 		hs+='height : 99%;';
@@ -14056,7 +14056,6 @@ function pano2vrSkin(player,base) {
 		hs+='white-space: pre;';
 		hs+='padding: 0px;';
 		hs+='overflow: hidden;';
-		hs+="font-family: \"Noto Sans KR\", sans-serif; font-optical-sizing: auto; font-weight: <weight>; font-style: normal;";
 		els.setAttribute('style',hs);
 		me.__103.ggUpdateText=function() {
 			var params = [];
@@ -24379,7 +24378,7 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_container ";
 		el.ggType='container';
 		hs ='';
-		hs+='bottom : 0px;';
+		hs+='bottom : -300px;';
 		hs+='height : 300px;';
 		hs+='left : 0px;';
 		hs+='position : absolute;';
@@ -24420,7 +24419,7 @@ function pano2vrSkin(player,base) {
 				}
 				else {
 					me.__1.style.left='0px';
-					me.__1.style.bottom='0px';
+					me.__1.style.bottom='-300px';
 				}
 			}
 		}
