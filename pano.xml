@@ -20,7 +20,7 @@
       <polystyle backgroundalpha="0.25098" handcursor="1" mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff"/>
       <hotspot id="Point01" skinid="잠실대교" tilt="-3.17" title="" target="_blank" url="" pan="-318.29" description=""/>
       <hotspot id="Point02" skinid="한강 " tilt="-0.37" title="" target="_blank" url="" pan="-11.13" description=""/>
-      <hotspot id="Point03" skinid="몽촌토성역" tilt="1.31" title="" target="_blank" url="" pan="-286.19" description=""/>
+      <hotspot id="Point03" skinid="버스정류장-잠실진주아파트" tilt="-2.47" title="" target="_blank" url="" pan="-298.24" description=""/>
     </hotspots>
     <media/>
     <transition zoomin="0" enabled="1" zoomfov="40" type="crossdissolve" zoomout="0" softedge="0" zoomafterinfov="140" zoomafteroutfov="40" zoomspeed="2" zoomoutpause="1" blendcolor="0x000000" blendtime="1" delay="none"/>

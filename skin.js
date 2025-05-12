@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.1.8/20986
 // Filename: 25.05. ??? ???? - test.ggsk
-// Generated 2025-05-12T14:47:25
+// Generated 2025-05-12T15:04:34
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_lanhouse', 2, false, { ignoreInState: 0  });
@@ -5699,8 +5699,8 @@ function pano2vrSkin(player,base) {
 		hs+='width: 100%;';
 		hs+='height: auto;';
 		hs+='max-height: 100%;';
-		hs+='font-size: 10px;';
-		hs+='font-weight: 400;';
+		hs+='font-size: 11px;';
+		hs+='font-weight: 600;';
 		hs+='text-align: center;';
 		hs+='position: absolute;';
 		hs+='top: 50%;';
@@ -5871,8 +5871,8 @@ function pano2vrSkin(player,base) {
 		hs+='width: 100%;';
 		hs+='height: auto;';
 		hs+='max-height: 100%;';
-		hs+='font-size: 10px;';
-		hs+='font-weight: 400;';
+		hs+='font-size: 11px;';
+		hs+='font-weight: 600;';
 		hs+='text-align: center;';
 		hs+='position: absolute;';
 		hs+='top: 50%;';
@@ -6107,8 +6107,8 @@ function pano2vrSkin(player,base) {
 		hs+='width: 100%;';
 		hs+='height: auto;';
 		hs+='max-height: 100%;';
-		hs+='font-size: 10px;';
-		hs+='font-weight: 400;';
+		hs+='font-size: 11px;';
+		hs+='font-weight: 600;';
 		hs+='text-align: center;';
 		hs+='position: absolute;';
 		hs+='top: 50%;';
@@ -6339,8 +6339,8 @@ function pano2vrSkin(player,base) {
 		hs+='width: 100%;';
 		hs+='height: auto;';
 		hs+='max-height: 100%;';
-		hs+='font-size: 10px;';
-		hs+='font-weight: 400;';
+		hs+='font-size: 11px;';
+		hs+='font-weight: 600;';
 		hs+='text-align: center;';
 		hs+='position: absolute;';
 		hs+='top: 50%;';
@@ -6519,8 +6519,8 @@ function pano2vrSkin(player,base) {
 		hs+='width: 100%;';
 		hs+='height: auto;';
 		hs+='max-height: 100%;';
-		hs+='font-size: 10px;';
-		hs+='font-weight: 400;';
+		hs+='font-size: 11px;';
+		hs+='font-weight: 600;';
 		hs+='text-align: center;';
 		hs+='position: absolute;';
 		hs+='top: 50%;';
@@ -6816,8 +6816,8 @@ function pano2vrSkin(player,base) {
 		hs+='width: 100%;';
 		hs+='height: auto;';
 		hs+='max-height: 100%;';
-		hs+='font-size: 10px;';
-		hs+='font-weight: 400;';
+		hs+='font-size: 11px;';
+		hs+='font-weight: 600;';
 		hs+='text-align: center;';
 		hs+='position: absolute;';
 		hs+='top: 50%;';
@@ -7051,8 +7051,8 @@ function pano2vrSkin(player,base) {
 		hs+='width: 100%;';
 		hs+='height: auto;';
 		hs+='max-height: 100%;';
-		hs+='font-size: 10px;';
-		hs+='font-weight: 400;';
+		hs+='font-size: 11px;';
+		hs+='font-weight: 600;';
 		hs+='text-align: center;';
 		hs+='position: absolute;';
 		hs+='top: 50%;';
@@ -15872,7 +15872,7 @@ function pano2vrSkin(player,base) {
 		hs+='height : 20px;';
 		hs+='position : absolute;';
 		hs+='right : 6px;';
-		hs+='top : 62px;';
+		hs+='top : 63px;';
 		hs+='visibility : hidden;';
 		hs+='width : 80px;';
 		hs+='pointer-events:none;';
@@ -18320,7 +18320,7 @@ function pano2vrSkin(player,base) {
 		hs+='bottom : 90px;';
 		hs+='height : 20px;';
 		hs+='position : absolute;';
-		hs+='right : 100px;';
+		hs+='right : 90px;';
 		hs+='visibility : hidden;';
 		hs+='width : 80px;';
 		hs+='pointer-events:none;';
@@ -27117,10 +27117,10 @@ document.body.removeChild(textarea);
 				me.__111.ggCurrentLogicStateSize = newLogicStateSize;
 				me.__111.style.transition='width 0s, height 0s';
 				if (me.__111.ggCurrentLogicStateSize == 0) {
-					me.__111.style.width='50px';
-					me.__111.style.height='50px';
-					me.__111.style.left = 'calc(50% - (50px / 2))';
-					me.__111.style.top = 'calc(50% - (50px / 2))';
+					me.__111.style.width='45px';
+					me.__111.style.height='45px';
+					me.__111.style.left = 'calc(50% - (45px / 2))';
+					me.__111.style.top = 'calc(50% - (45px / 2))';
 					skin.updateSize(me.__111);
 				}
 				else {
@@ -27186,10 +27186,10 @@ document.body.removeChild(textarea);
 				me.__50.ggCurrentLogicStateSize = newLogicStateSize;
 				me.__50.style.transition='width 0s, height 0s';
 				if (me.__50.ggCurrentLogicStateSize == 0) {
-					me.__50.style.width='40px';
-					me.__50.style.height='40px';
-					me.__50.style.left = 'calc(50% - (40px / 2) - (8px / 2))';
-					me.__50.style.top = 'calc(50% - (40px / 2) - (8px / 2))';
+					me.__50.style.width='30px';
+					me.__50.style.height='30px';
+					me.__50.style.left = 'calc(50% - (30px / 2) - (8px / 2))';
+					me.__50.style.top = 'calc(50% - (30px / 2) - (8px / 2))';
 					skin.updateSize(me.__50);
 				}
 				else {
@@ -33559,7 +33559,7 @@ document.body.removeChild(textarea);
 		hs ='';
 		hs+='bottom : -100px;';
 		hs+='height : 100px;';
-		hs+='left : 10px;';
+		hs+='left : 17px;';
 		hs+='position : absolute;';
 		hs+='visibility : inherit;';
 		hs+='width : 1px;';
